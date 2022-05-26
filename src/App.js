@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
-import StyledComponent from './StyledComponent';
+import TodoTemplate from './components/TodoTemplate';
+import TodoInsert from './components/TodoInsert';
+import TodoList from './components/TodoList';
+
+
+
+
 
 class App extends Component {
   render() {
     return (
       <div>
-        <StyledComponent />
+        <TodoTemplate>
+          <TodoInsert />
+          <TodoList />
+        </TodoTemplate>
       </div>
     );
   }
