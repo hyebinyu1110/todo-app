@@ -1,13 +1,14 @@
+import React, { Component } from 'react';
+import StyledComponent from './StyledComponent';
 
-import './App.css';
-import SassComponent from './SassComponent';
-
-function App() {
-  return (
-    <div>
-      <SassComponent />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <StyledComponent />
+      </div>
+    );
+  }
 }
 
 export default App;
